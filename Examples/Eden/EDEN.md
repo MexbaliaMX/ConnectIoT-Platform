@@ -46,11 +46,13 @@ dht11 = Adafruit_DHT.DHT11
 pinDHT11 = 17
 ```
 
-Connecting to the ConnenctIoT-API by adding environment variables 
+Connecting to the ConnenctIoT-API by adding environment variables:
 
-- NEAR_ACCOUNT_ID (Account signing contract)
-- NEAR_CONTRACT_URL (URL in which the API is running)
-- NEAR_PRIVATE_KEY (Signing account private key)
+- NEAR_ACCOUNT_ID (*Account signing contract*)
+- NEAR_CONTRACT_URL (*URL in which the API is running*)
+- NEAR_PRIVATE_KEY (*Signing account private key*)
+
+Using the ConnectIot library the [create_registry](https://github.com/paul-cruz/ConnectIoT-py/blob/main/docs/CREATEREG.md#create-a-registry) and the [add_device_to_registry](https://github.com/paul-cruz/ConnectIoT-py/blob/main/docs/ADDDEVICE.md#add-device-to-registry) functions are called
 
 ```bash
 contract = ConnectIoT(
@@ -71,8 +73,8 @@ contract = ConnectIoT(
 ```
 Inside a while loop, the timenow variable is created using the Datetime library, temperature and humidity values are read from the DHT11 using the Adafruit library, and the light percentage is gotten using the gpiozero LightSensor value. 
 
-Once the variables are set, the code checks if none of them have a None value. If not, the code prints the first sampling, this is where the code calls the set_device_data function, for it to then print the get_device_data function, meaning that the relative temperature in celsius, humidity percentage, and light percentage of somewhere has been registered in the NEAR blockchain.
-Whatever else happens the code calls the delete_device_from_registry and the delete_registry functions and terminates the program.
+Once the variables are set, the code checks if none of them have a None value. If not, the code prints the first sampling, this is where the code calls the [set_device_data](https://github.com/paul-cruz/ConnectIoT-py/blob/main/docs/SETDEVDATA.md#set-data-to-a-device) function, for it to then print the [get_device_data](https://github.com/paul-cruz/ConnectIoT-py/blob/main/docs/GETDEVDATA.md#get-data-from-device) function, meaning that the relative temperature in celsius, humidity percentage, and light percentage of somewhere has been registered in the NEAR blockchain.
+Whatever else happens the code calls the [delete_device_from_registry](https://github.com/paul-cruz/ConnectIoT-py/blob/main/docs/DELDEVICE.md#delete-a-device-from-a-registry) and the [delete_registry](https://github.com/paul-cruz/ConnectIoT-py/blob/main/docs/DELETEREG.md#delete-a-registry) functions and terminates the program.
 ```bash
 timenow = datetime.datetime.now()
         humidity, temperature = Adafruit_DHT.read_retry(dht11, pinDHT11)
@@ -93,7 +95,7 @@ timenow = datetime.datetime.now()
                 print('Device and Registry deleted!') 
                 break
 ```
-If everything is connected right youshould see something like this on the terminal.
+If everything is connected right you should see something like this on the terminal.
 
 <center>
 
@@ -101,7 +103,7 @@ If everything is connected right youshould see something like this on the termin
 
 </center>
 
-
+Your circuit should look and perform like this:
 <center>
 
 ![Arq,use](../../assets/images/CircuitEdenReal1.png)
@@ -114,4 +116,4 @@ If everything is connected right youshould see something like this on the termin
 
 </center>
 
-If you have any doubts please watch this [video.]()
+If you have any doubts please watch this [video]() and check the [code here.](../../code/DHT11Eden.py)
