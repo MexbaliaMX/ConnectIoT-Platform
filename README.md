@@ -13,20 +13,22 @@ Full ConnectIoT project repository.
 ---
 ## About this project
 ConnectIoT is an open source IoT platform that allows users to manage devices and store valuable information into the NEAR blockchain. 
+This is done by accesing to the ConnectIoT smart contract through the ConnectIoT-API. This API can be used with the ConnectIoT Python and Arduino libraries.
 
+### Architecture
 <center>
 
 ![Arq,use](assets/images/ConnectIoT%20Arq..jpg)
 
 </center>
 
-This is done by accesing to the ConnectIoT smart contract through the ConnectIoT-API. This API can be used with the ConnectIoT Python and Arduino libraries.
+
 
 ---
 ## Table of content
-- [ConnectIoT Smart Contract](https://github.com/paul-cruz/ConnectIoT)
-- [ConnectIot-API](https://github.com/paul-cruz/ConnectIoT-API)
-- [ConnectIoT-py](https://github.com/paul-cruz/ConnectIoT-py) 
+- [ConnectIoT Smart Contract](ConnectIoT-SC/SC.md)
+- [ConnectIot-API](ConnectIoT-API/API.md)
+- [ConnectIoT-py](ConnectIoT-py/PY.md) 
 - [ConnectIot-ino](https://github.com/paul-cruz/ConnectIoT-ino)
 - [Examples](Examples/)
 - [Videos](Videos/)
@@ -39,7 +41,9 @@ This is done by accesing to the ConnectIoT smart contract through the ConnectIoT
 >
   [![Logo Mexbalia](assets/images/Mexbalia_altaResolucion_FondoClaro1.png)](https://mexbalia.com/)
 
-  [![Logo Near Foundation](assets/images/Screenshot%20from%202022-08-10%2010-38-58.png)](https://near.foundation/)</center>
+  [![Logo Near Foundation](assets/images/Screenshot%20from%202022-08-10%2010-38-58.png)](https://near.foundation/)
+  
+  </center>
 
 ---
 ## Support
