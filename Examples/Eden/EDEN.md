@@ -1,11 +1,10 @@
 # ConnectIoT-Eden Prototype
 
 Eden is a Mexbalia product that creates the perfect environment for plants to thrive, it is an educational project and an ally in the care and growth of plants. On the other hand, ConnectIot´s purpose is to register IoT devices and their data in the NEAR blockchain, so with this in mind, this test tries to combine an Eden prototype with the ConnectIoT platform. 
-<center>
 
-![Arq,use](../../assets/images/ConnectIoT-Eden.png)
-
-</center>
+<p align="center">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/ConnectIoT-Eden.png" />
+</p>
 
 ## Test
 The test was done with a Raspberry Pi 2 B, a DHT11 module, for temperature and humidity, and an LDR (Light Dependant Resistor) for light intensity measurement.  The only difference between the DHT11 sensor and the DHT11 module is that the module will have a filtering capacitor and pull-up resistor inbuilt, and for the sensor alone, they have to be used externally if required, like in the LDR setup.
@@ -16,11 +15,10 @@ The test was done with a Raspberry Pi 2 B, a DHT11 module, for temperature and h
 
 There are three pins for communication between components and the Raspberry PI. The DHT11 module is to GPIO17, and the LDR sensor is to GPIO27. The third one is for a LED to indicate day and night, which is to GPIO18. The LDR and the DHT11 work with a 3.3 V power supply.
 
-<center>
 
-![Arq,use](../../assets/images/CircuitEden.png)
-
-</center>
+<p align="center">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/CircuitEden.png" />
+</p>
 
 ## Code
 
@@ -99,24 +97,19 @@ timenow = datetime.datetime.now()
 ```
 If everything is connected right you should see something like this on the terminal.
 
-<center>
-
-![Arq,use](../../assets/images/resultpy.png)
-
-</center>
+<p align="center">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/resultpy.png" />
+</p>
 
 Your circuit should look and perform like this:
-<center>
 
-![Arq,use](../../assets/images/CircuitEdenReal1.png)
+<p align="center">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/CircuitEdenReal1.png" />
+</p>
 
-</center>
-
-<center>
-
-![Arq,use](../../assets/images/CircuitEdenReal2.png)
-
-</center>
+<p align="center">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/CircuitEdenReal2.png" />
+</p>
 
 You can always check your transactions at the [NEAR Explorer](https://explorer.testnet.near.org/).
 If you have any doubts please watch this [video]() and check the [code here.](code/DHT11Eden.py)

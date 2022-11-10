@@ -1,12 +1,10 @@
 # ConnectIoT API
 Specific implementation for the ConnectIoT project based on the official NEAR REST API SERVER repository.
 With this API methods in the ConnectIoT Smart Contract can be called.
-<center>
 
-![Arq,use](../assets/images/NEARJS.png)
-
-</center>
-
+<p align="center">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/NEARJS.png" />
+</p>
 
 
 

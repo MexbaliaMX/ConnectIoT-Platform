@@ -1,8 +1,13 @@
 # ConnectIoT-Platform
 Full ConnectIoT project repository.
+
+
+<p align="center">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/Morado%20Moderno%20Tecnolog%C3%ADa%20y%20Juegos%20Logotipo%20(1).png" />
+</p>
+
 <center>
 
-![Logo](assets/images/Morado%20Moderno%20Tecnolog%C3%ADa%20y%20Juegos%20Logotipo%20(1).png)
 
 [![Mexbalia](https://img.shields.io/badge/Mexbalia-ConnectIoT-blue)](https://mexbalia.com/connect-iot/)
 [![Mexbalia](https://img.shields.io/badge/-Near%20Protocol-9cf)](https://near.org/)
@@ -16,11 +21,9 @@ ConnectIoT is an open source IoT platform that allows users to manage devices an
 This is done by accesing to the ConnectIoT smart contract through the ConnectIoT-API. This API can be used with the ConnectIoT Python and Arduino libraries.
 
 ### Architecture
-<center>
-
-![Arq,use](assets/images/ConnectIoT%20Arq..jpg)
-
-</center>
+<p align="center">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/ConnectIoT%20Arq..jpg" />
+</p>
 
 
 
@@ -36,14 +39,21 @@ This is done by accesing to the ConnectIoT smart contract through the ConnectIoT
 
 
 ## Credits
-<center>
 
->
-  [![Logo Mexbalia](assets/images/Mexbalia_altaResolucion_FondoClaro1.png)](https://mexbalia.com/)
+<p 
+align="center">
+<a
+href="https://mexbalia.com/">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/Mexbalia_altaResolucion_FondoClaro1.png" /></a>
+</p>
+<p 
+align="center">
+<a
+href="https://near.foundation/">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/Screenshot%20from%202022-08-10%2010-38-58.png" /></a>
+</p>
 
-  [![Logo Near Foundation](assets/images/Screenshot%20from%202022-08-10%2010-38-58.png)](https://near.foundation/)
-  
-  </center>
+
 
 ---
 ## Support

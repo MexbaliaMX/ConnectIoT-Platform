@@ -6,14 +6,19 @@
 
 ***Click in the logos to see some examples***
 
-<center>
 
-[![Arq,use](../assets/images/Captura-de-pantalla-de-2020-09-29-14-28-07.png)](Eden/EDEN.md)
+<p 
+align="center">
+<a
+href="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/Examples/Eden/EDEN.md">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/Captura-de-pantalla-de-2020-09-29-14-28-07.png" /></a>
+</p>
 
-</center>
-<center>
+<p 
+align="center">
+<a
+href="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/Examples/Oximeter/OXIMETER.md">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/Captura-de-pantalla-de-2020-09-29-14-36-03.png" /></a>
+</p>
 
-[![Arq,use](../assets/images/Captura-de-pantalla-de-2020-09-29-14-36-03.png)](Oximeter/OXIMETER.md)
-
-</center>
 
