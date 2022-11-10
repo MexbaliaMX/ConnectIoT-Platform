@@ -7,4 +7,4 @@ With this library you can access the ConnectIoT Smart Contract with any Python p
 
 </center>
 
-If you want to learn more watch this [video]() and go to the [ConnectIoT-py repository](https://github.com/paul-cruz/ConnectIoT-py)
+If you want to learn more watch this [video]() and go to the [ConnectIoT-py repository](https://github.com/paul-cruz/ConnectIoT-py).
