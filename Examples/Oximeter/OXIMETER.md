@@ -95,28 +95,20 @@ void loop(){
     }}
 ```
 If everything is connected right your circuit should look and perform like this:
-<center>
+<p align="center">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/OxiCircuit1.png" />
+</p>
 
-![Arq,use](../../assets/images/OxiCircuit1.png)
 
-</center>
-
-<center>
-
-![Arq,use](../../assets/images/OxiCircuit2.png)
-
-</center>
-<center>
-
-![Arq,use](../../assets/images/OxiCircuit3.png)
-
-</center>
-<center>
-
-![Arq,use](../../assets/images/OxiCircuit4.png)
-
-</center>
-
+<p align="center">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/OxiCircuit2.png" />
+</p>
+<p align="center">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/OxiCircuit3.png" />
+</p>
+<p align="center">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/OxiCircuit4.png" />
+</p>
 You can always check your transactions at the [NEAR Explorer](https://explorer.testnet.near.org/).
 If you have any doubts please watch this [video]() and check the [code here.](code/oximeter.cpp)
 
