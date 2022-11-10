@@ -2,7 +2,7 @@
 Full ConnectIoT project repository.
 <center>
 
-![Arq,use](assets/images/Morado%20Moderno%20Tecnolog%C3%ADa%20y%20Juegos%20Logotipo%20(1).png)
+![Logo](assets/images/Morado%20Moderno%20Tecnolog%C3%ADa%20y%20Juegos%20Logotipo%20(1).png)
 
 [![Mexbalia](https://img.shields.io/badge/Mexbalia-ConnectIoT-blue)](https://mexbalia.com/connect-iot/)
 [![Mexbalia](https://img.shields.io/badge/-Near%20Protocol-9cf)](https://near.org/)
@@ -29,9 +29,9 @@ This is done by accesing to the ConnectIoT smart contract through the ConnectIoT
 - [ConnectIoT Smart Contract](ConnectIoT-SC/SC.md)
 - [ConnectIot-API](ConnectIoT-API/API.md)
 - [ConnectIoT-py](ConnectIoT-py/PY.md) 
-- [ConnectIot-ino](https://github.com/paul-cruz/ConnectIoT-ino)
+- [ConnectIot-ino](ConnectIoT-ino/INO.md)
 - [Examples](Examples/)
-- [Videos](Videos/)
+- [Videos]()
 
 
 
