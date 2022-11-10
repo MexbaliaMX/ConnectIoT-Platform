@@ -12,7 +12,7 @@ The test was done with an Arduino Nano 33 IoT, a MAX30102 High-Sensitivity Pulse
 For this project the Arduino uses three main pins for communication, two (SDA,SCL) for I2C communication with the display and the MAX30102 and the third one (D4) as an input switch.
 
 <p align="center">
-  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/CircuitOxi.png" />
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/CicuitOxi.png" />
 </p>
 
 ## Code
