@@ -4,11 +4,6 @@ Due to the Covid-19 pandemic, Mexbalia designed and developed an Oximeter that c
 <p align="center">
   <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/ConnectIoTOximeter.png" />
 </p>
-<center>
-
-[![ConnectIoTOximeter](../../assets/images/ConnectIoTOximeter.png)](https://github.com/paul-cruz/OXIMETER)
-
-</center>
 
 ## Test
 The test was done with an Arduino Nano 33 IoT, a MAX30102 High-Sensitivity Pulse Oximeter, and Heart-Rate Biosensor for Fitness & Healthcare, a White 0.96” 128x64 OLED LCD Display, a 100 ohm resistor, a push button, and wires. Using the Arduino Nano 33 IoT and the required libraries the sensor and display are put to work, then connected to the [ConnectIoT-API](https://github.com/paul-cruz/ConnectIoT-API) through the [ConnectIoT-ino library](https://github.com/paul-cruz/ConnectIoT-ino) and register SPO2 and heart rate data in the NEAR blockchain.
@@ -16,11 +11,9 @@ The test was done with an Arduino Nano 33 IoT, a MAX30102 High-Sensitivity Pulse
 ## Circuit
 For this project the Arduino uses three main pins for communication, two (SDA,SCL) for I2C communication with the display and the MAX30102 and the third one (D4) as an input switch.
 
-<center>
-
-![Arq,use](../../assets/images/CicuitOxi.png)
-
-</center>
+<p align="center">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/CircuitOxi.png" />
+</p>
 
 ## Code
 Oximeters functionality code was taken from the [Oximeter repository](https://github.com/paul-cruz/OXIMETER), but the measured data is sent to the NEAR blockchain using the [ConnectIoT-ino library](https://github.com/paul-cruz/ConnectIoT-ino) instead of going to the Google Cloud Instance. 

@@ -1,13 +1,10 @@
 # ConnectIoT Smart Contract
 
 Access services Smart Contract which allows creating the connection between IoT devices and the NEAR Protocol Blockchain.
-<center>
 
-![Arq,use](../assets/images/Screenshot%20from%202022-08-10%2010-16-12.png)
-
-</center>
-
-
+<p align="center">
+  <img src="https://github.com/EbanCuMo/ConnectIoT-Platform/blob/main/assets/images/Morado%20Moderno%20Tecnolog%C3%ADa%20y%20Juegos%20Logotipo%20(1).png" />
+</p>
 
 
 
