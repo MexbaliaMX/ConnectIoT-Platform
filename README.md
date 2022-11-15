@@ -33,7 +33,7 @@ This is done by accesing to the ConnectIoT smart contract through the ConnectIoT
 - [ConnectIot-API](ConnectIoT-API/API.md)
 - [ConnectIoT-py](ConnectIoT-py/PY.md) 
 - [ConnectIot-ino](ConnectIoT-ino/INO.md)
-- [Examples](Examples/)
+- [Examples](Examples/README.md)
 - [Videos]()
 
 
@@ -58,5 +58,7 @@ href="https://near.foundation/">
 ---
 ## Support
 
-Reach out via [website](https://mexbalia.com/contact/) or send an email to [info@mexbalia.com](https://google.com)
+Reach out via [website](https://mexbalia.com/contact/) or send an email to [info@mexbalia.com](https://google.com). 
+
+If you have any doubts on what ConnectIoT is, please watch this [video](https://www.youtube.com/watch?v=iDdOeCQVsBM&t=13s).
 
