@@ -112,4 +112,4 @@ Your circuit should look and perform like this:
 </p>
 
 You can always check your transactions at the [NEAR Explorer](https://explorer.testnet.near.org/).
-If you have any doubts please watch this [video]() and check the [code here.](code/DHT11Eden.py)
+If you have any doubts please watch this [video](https://www.youtube.com/watch?v=kNZbP4RNQ5E) and check the [code here.](code/DHT11Eden.py)

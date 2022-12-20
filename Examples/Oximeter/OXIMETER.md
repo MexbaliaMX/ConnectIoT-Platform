@@ -112,5 +112,5 @@ If everything is connected right your circuit should look and perform like this:
 
 You can always check your transactions at the [NEAR Explorer](https://explorer.testnet.near.org/).
 
-If you have any doubts please watch this [video]() and check the [code here.](code/oximeter.cpp)
+If you have any doubts please watch this [video](https://www.youtube.com/watch?v=qh0-w7BAv0Q) and check the [code here.](code/oximeter.cpp)
 
