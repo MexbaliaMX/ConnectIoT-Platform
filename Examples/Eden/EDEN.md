@@ -22,7 +22,7 @@ There are three pins for communication between components and the Raspberry PI. 
 
 ## Code
 
-Using the [ConnectIoT-py](https://github.com/paul-cruz/ConnectIoT-py), AdafruitDHT11, gpiozero and other libraries we can start taking in data from our sensors and send it to the NEAR blockchain.
+Using the [ConnectIoT-py](https://github.com/MexbaliaMX/ConnectIoT-py), AdafruitDHT11, gpiozero and other libraries we can start taking in data from our sensors and send it to the NEAR blockchain.
 
 ```py
 import datetime
@@ -46,13 +46,13 @@ dht11 = Adafruit_DHT.DHT11
 pinDHT11 = 17
 ```
 
-Connecting to the [ConnectIoT-API](https://github.com/paul-cruz/ConnectIoT-API) by adding environment variables:
+Connecting to the [ConnectIoT-API](https://github.com/MexbaliaMX/ConnectIoT-API) by adding environment variables:
 
 - NEAR_ACCOUNT_ID (*Account signing contract*)
 - NEAR_CONTRACT_URL (*URL in which the API is running*)
 - NEAR_PRIVATE_KEY (*Signing account private key*)
 
-Using the ConnectIot library the [create_registry](https://github.com/paul-cruz/ConnectIoT-py/blob/main/docs/CREATEREG.md#create-a-registry) and the [add_device_to_registry](https://github.com/paul-cruz/ConnectIoT-py/blob/main/docs/ADDDEVICE.md#add-device-to-registry) functions are called
+Using the ConnectIot library the [create_registry](https://github.com/MexbaliaMX/ConnectIoT-py/blob/main/docs/CREATEREG.md#create-a-registry) and the [add_device_to_registry](https://github.com/MexbaliaMX/ConnectIoT-py/blob/main/docs/ADDDEVICE.md#add-device-to-registry) functions are called
 
 ```py
 contract = ConnectIoT(
@@ -73,8 +73,8 @@ contract = ConnectIoT(
 ```
 Inside a while loop, the timenow variable is created using the Datetime library, temperature and humidity values are read from the DHT11 using the Adafruit library, and the light percentage is gotten using the gpiozero LightSensor value. 
 
-Once the variables are set, the code checks if none of them have a None value. If not, the code prints the first sampling, this is where the code calls the [set_device_data](https://github.com/paul-cruz/ConnectIoT-py/blob/main/docs/SETDEVDATA.md#set-data-to-a-device) function, for it to then print the [get_device_data](https://github.com/paul-cruz/ConnectIoT-py/blob/main/docs/GETDEVDATA.md#get-data-from-device) function, meaning that the relative temperature in celsius, humidity percentage, and light percentage of somewhere has been registered in the NEAR blockchain.
-Whatever else happens the code calls the [delete_device_from_registry](https://github.com/paul-cruz/ConnectIoT-py/blob/main/docs/DELDEVICE.md#delete-a-device-from-a-registry) and the [delete_registry](https://github.com/paul-cruz/ConnectIoT-py/blob/main/docs/DELETEREG.md#delete-a-registry) functions and terminates the program.
+Once the variables are set, the code checks if none of them have a None value. If not, the code prints the first sampling, this is where the code calls the [set_device_data](https://github.com/MexbaliaMX/ConnectIoT-py/blob/main/docs/SETDEVDATA.md#set-data-to-a-device) function, for it to then print the [get_device_data](https://github.com/MexbaliaMX/ConnectIoT-py/blob/main/docs/GETDEVDATA.md#get-data-from-device) function, meaning that the relative temperature in celsius, humidity percentage, and light percentage of somewhere has been registered in the NEAR blockchain.
+Whatever else happens the code calls the [delete_device_from_registry](https://github.com/MexbaliaMX/ConnectIoT-py/blob/main/docs/DELDEVICE.md#delete-a-device-from-a-registry) and the [delete_registry](https://github.com/MexbaliaMX/ConnectIoT-py/blob/main/docs/DELETEREG.md#delete-a-registry) functions and terminates the program.
 ```py
 timenow = datetime.datetime.now()
         humidity, temperature = Adafruit_DHT.read_retry(dht11, pinDHT11)

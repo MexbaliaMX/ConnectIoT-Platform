@@ -8,5 +8,5 @@ Web app for the ConnectIoT project. This app simulate the acquisition of data, r
 
 
 
-If you want to learn more go to the [ConnectIoT-Frontend repository](https://github.com/EduardoMtz1/ConnectIoT-Frontend).
+If you want to learn more go to the [ConnectIoT-Frontend repository](https://github.com/MexbaliaMX/ConnectIoT-Frontend).
 

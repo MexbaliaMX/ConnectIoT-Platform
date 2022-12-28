@@ -8,5 +8,5 @@ Access services Smart Contract which allows creating the connection between IoT 
 
 
 
-If you want to learn more watch this [video](https://www.youtube.com/watch?v=MxdifDH9v78) and go to the [ConnectIoT Smart Contract repository](https://github.com/paul-cruz/ConnectIoT).
+If you want to learn more watch this [video](https://www.youtube.com/watch?v=MxdifDH9v78) and go to the [ConnectIoT Smart Contract repository](https://github.com/MexbaliaMX/ConnectIoT-SC).
 

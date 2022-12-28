@@ -9,7 +9,7 @@ Full ConnectIoT project repository.
 <center>
 
 
-[![Mexbalia](https://img.shields.io/badge/Mexbalia-ConnectIoT-blue)](https://mexbalia.com/connect-iot/)
+[![Mexbalia](https://img.shields.io/badge/Mexbalia-ConnectIoT-blue)](http://mexbalia.com/Conectiot.html)
 [![Mexbalia](https://img.shields.io/badge/-Near%20Protocol-9cf)](https://near.org/)
 [![Mexbalia](https://img.shields.io/badge/-near--sdk--rs-orange)](https://www.near-sdk.io/)
 

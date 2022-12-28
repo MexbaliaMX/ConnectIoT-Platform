@@ -9,5 +9,5 @@ With this API methods in the ConnectIoT Smart Contract can be called.
 
 
 
-If you want to learn more watch this [video](https://www.youtube.com/watch?v=59uaCtDD2Z8&t) and go to the [ConnectIoT-API repository](https://github.com/paul-cruz/ConnectIoT-API).
+If you want to learn more watch this [video](https://www.youtube.com/watch?v=59uaCtDD2Z8&t) and go to the [ConnectIoT-API repository](https://github.com/MexbaliaMX/ConnectIoT-API).
 
