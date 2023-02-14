@@ -57,7 +57,7 @@ href="https://near.foundation/">
 ---
 ## Support
 
-Reach out via [website](https://mexbalia.com/contact/) or send an email to [info@mexbalia.com](https://google.com). 
+Reach out via [website](https://mexbalia.com/contact.html) or send an email to [info@mexbalia.com](https://google.com). 
 
 If you have any doubts on what ConnectIoT is, please watch this [video](https://www.youtube.com/watch?v=iDdOeCQVsBM&t).
 
